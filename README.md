@@ -15,13 +15,13 @@ OVHcloud\
 Ce dépôt correspond à un site créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT Nord Franche-Comté. Ce site présente des informations concernant l'entreprise OVHcloud et sert de vitrine pour présenter l'entreprise, ses services, sa sécurité, ses infrastructures et aspects écologiques. Vous trouverez dans ce dépôt et sur le site un rapport analysant l'aspect économique d'OVHcloud.
 
 ## Choix de conception
-Pour la conception du site, nous nous sommes grandement inspirés du sute officiel d'[OVHcloud](https://google.cloud.com), (METTRE LES AUTRES INSPIRATIONS)
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de [Google cloud](https://google.cloud.com), (METTRE LES AUTRES INSPIRATIONS)
 
 ## Développement Site Web et Validation des pages
 ### Page d'accueil
-*Auteur: xx*
+**Auteur: xx**
 Verification W3C: [Détails ici](entrer le lien)
 Screen
 
 ### Présentation générale
-*Auteur:*
+**Auteur:**
