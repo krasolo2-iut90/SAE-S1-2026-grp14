@@ -21,15 +21,34 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Page d'accueil
 
-**Auteur: xx**
+**Auteur: Amine**
 
 Verification W3C: [Détails ici](entrer le lien)
 
+<br>
 ![capture d'écran de la conformité de la page]()
 
-### Présentation générale
+### Présentation économique
 
-**Auteur:**
+**Auteur: Ozturk Ozan**
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+
+<br>
+![capture d'écran de la conformité de la page]()
+
+### Présentation des infrastructures et de l'aspect écologique
+
+**Auteur: Rasolo Kenza**
+
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+
+<br>
+![capture d'écran de la conformité de la page]()
+
+### Présentation de l'aspect de confiance et sécuritaire 
+
+**Auteur: Miloud Djelloul**
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
@@ -44,10 +63,9 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
   - Page d’accueil
   - Intégrer une carte interactive
 - Ozturk Ozan
-  - Page économie
+  - Présentation économique
   - Créer un bouton traduction anglais/français
 - Rasolo Kenza
-  - Page présentation
   - Page infrastructure et écologie
   - Créer thème clair/sombre
 - Miloud Djelloul
