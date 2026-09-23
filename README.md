@@ -12,7 +12,7 @@ OVHcloud\
   * [Rasolo Kenza](mailto:rasolo_dit_rasolonjatovo@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 ## Présentation
-Ce dépôt correspond à un site créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT Nord Franche-Comté. Ce site présente des informations concernant l'entreprise OVHcloud et sert de vitrine pour présenter l'entreprise, ses services, sa sécurité, ses infrastructures et aspects écologiques. Vous trouverez dans ce dépôt et sur le site un rapport analysant l'aspect économique d'OVHcloud.
+Ce dépôt correspond à un site créé en HTML/CSS dans le cadre de la SAÉ 05-06 à l'IUT Nord Franche-Comté. Ce site présente des informations concernant l'entreprise OVHcloud et présentera l'entreprise, ses services, sa sécurité, ses infrastructures et aspects écologiques.
 
 ## Choix de conception
 Pour la conception du site, nous nous sommes grandement inspirés du site officiel de [Google cloud](https://google.cloud.com), de [cloudflare](https://www.cloudflare.com/fr-fr/) et d'[aternos](https://aternos.org/:fr/).
