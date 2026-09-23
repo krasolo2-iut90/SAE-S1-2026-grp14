@@ -38,28 +38,22 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 ## Répartition du travail
 
-### Planification - Diagramme de GANTT
-
-- Nom Prénom
-
-### Recherches d'informations
-
-- Nom Prénom
-- Nom Prénom
-
 ### Développement site
 
-- Nom Prénom
+- Maouf Amine
   - Page d’accueil
-  - "Template" de page (Navbar/Footer)
-  - Page présentation
-- Nom Prénom
+  - Intégrer une carte interactive
+- Ozturk Ozan
   - Page économie
-- Nom Prénom
+  - Créer un bouton traduction anglais/français
+- Rasolo Kenza
+  - Page présentation
   - Page infrastructure et écologie
-- Nom Prénom
+  - Créer thème clair/sombre
+- Miloud Djelloul
+  - "Template" de page (Navbar/Footer)
   - Page sécurité et confiance
-
+  - Facultatif: agent ia
 
 ## Contributeurs
 
