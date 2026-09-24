@@ -5,16 +5,15 @@
 }
 
 body {
-    background: #f8fafc;
-    color: #172033;
+    background: #ffffff;
+    color: #0b0e14;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 
 .site-header {
-    background: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
-    box-shadow: 0 2px 10px rgb(15 23 42 / 6%);
+    background: #f0f1f2;
+    border-bottom: 1px solid #283959;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -22,19 +21,21 @@ body {
 
 .header-container {
     align-items: center;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto minmax(0, 1fr);
     margin: 0 auto;
-    max-width: 1100px;
-    min-height: 76px;
-    padding: 0 24px;
+    max-width: 1600px;
+    min-height: 104px;
+    padding: 14px 20px;
+    width: 100%;
 }
 
 .logo {
     align-items: center;
-    color: #172033;
+    color: #283959;
     display: inline-flex;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 700;
     gap: 10px;
     text-decoration: none;
@@ -42,14 +43,14 @@ body {
 }
 
 .logo strong {
-    color: #2563eb;
+    color: #283959;
 }
 
 .logo-mark {
     align-items: center;
-    background: #2563eb;
+    background: #5c8ef2;
     border-radius: 10px;
-    color: white;
+    color: #ffffff;
     display: inline-flex;
     font-size: 0.9rem;
     height: 38px;
@@ -60,38 +61,46 @@ body {
 .main-nav {
     align-items: center;
     display: flex;
-    gap: 8px;
+    gap: clamp(12px, 2.5vw, 40px);
+    justify-content: center;
+    min-width: 0;
 }
 
 .main-nav a {
-    border-radius: 8px;
-    color: #64748b;
-    font-size: 0.95rem;
-    padding: 10px 14px;
+    background: #5c8ef2;
+    border-radius: 12px;
+    color: #0b0e14;
+    font-size: 1rem;
+    min-width: 105px;
+    padding: 9px 16px;
+    text-align: center;
     text-decoration: none;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    white-space: nowrap;
 }
 
 .main-nav a:hover,
 .main-nav a:focus-visible,
 .main-nav a.active {
-    background: #eff6ff;
-    color: #1d4ed8;
-    outline: none;
+    background: #283959;
+    color: #ffffff;
+    outline: 2px solid #283959;
+    outline-offset: 2px;
 }
 
 .accueil {
     align-items: center;
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     margin: 0 auto;
     max-width: 1100px;
     padding: 96px 24px;
+    text-align: center;
 }
 
 .introduction {
-    color: #2563eb;
+    color: #283959;
     font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -105,26 +114,46 @@ h1 {
 }
 
 .accueil p:last-child {
-    color: #64748b;
+    color: #2d3340;
     font-size: 1.1rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1250px) {
     .header-container {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 12px;
-        padding-bottom: 14px;
-        padding-top: 14px;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .main-nav {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-container {
+        gap: 14px;
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 14px;
+    }
+
+    .logo,
+    .main-nav {
+        justify-content: center;
+        width: 100%;
     }
 
     .main-nav {
         flex-wrap: wrap;
-        gap: 4px;
+        gap: 8px;
+        grid-column: auto;
+        grid-row: auto;
     }
 
     .main-nav a {
-        font-size: 0.9rem;
-        padding: 8px 10px;
+        min-width: 100px;
+        padding: 8px 12px;
     }
 }
