@@ -3,42 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="L'économie d'OVH et son implantation mondiale.">
-    <title>OVH — Économie</title>
+    <meta name="description" content="L'économie d'OVHcloud et son implantation mondiale.">
+    <title>OVHcloud — Économie</title>
+    <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="economie.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3Jw1Wl8kT8tDk0Q7mZ5q8x1Q5Y9s=" crossorigin="">
 </head>
 <body>
     <header class="site-header">
-        <a class="brand" href="index.html" aria-label="Accueil Djelloul">
-            <span class="brand-mark" aria-hidden="true"></span>
-            <span class="brand-name">Djelloul</span>
-        </a>
+        <div class="header-container">
+            <a class="logo" href="index.html" aria-label="Accueil - SAE S1 Groupe 14">
+                <img class="logo-image" src="logo.png" alt="Logo du groupe 14">
+                <span>OVHCLOUD</span>
+            </a>
 
-        <nav class="main-nav" aria-label="Navigation principale">
-            <a href="#presentation">Redirect</a>
-            <a href="#graphique">Bouton 1</a>
-            <a href="#carte">Bouton 2</a>
-            <a href="#langue">Lang</a>
-        </nav>
+            <nav class="main-nav" aria-label="Navigation principale">
+                <a href="index.html">Accueil</a>
+                <a class="active" href="economie.html" aria-current="page">Économie</a>
+                <a href="#services">Services</a>
+                <a href="securite.html">Sécurité</a>
+                <a href="pageEcolo.html">Ecologie</a>
+            </nav>
+
+            <div class="header-actions">
+                <a class="header-button" href="connexion.html">Se connecter</a>
+                <a class="header-button" href="inscription.html">S'inscrire</a>
+            </div>
+        </div>
     </header>
 
     <main>
         <section class="intro section-container" id="presentation" aria-labelledby="intro-title">
             <div class="intro-copy">
-                <h1 id="intro-title">L'économie d'OVH</h1>
+                <h1 id="intro-title">L'économie d'OVHcloud</h1>
                 <p>
                     OVHcloud s'appuie sur un modèle économique fondé sur la maîtrise de son
                     infrastructure et sur une présence internationale. L'entreprise propose
                     des solutions cloud accessibles aux particuliers comme aux organisations.
                 </p>
             </div>
-            <div class="image-placeholder intro-image" role="img" aria-label="Illustration d'un centre de données OVHcloud"></div>
+            <div class="image-placeholder intro-image" role="img" aria-label="Illustration d'un centre de données OVHcloud">
+                <span aria-hidden="true">DATACENTER</span>
+            </div>
         </section>
 
         <section class="graph-section" id="graphique" aria-labelledby="graph-title">
             <div class="graph-placeholder">
-                <h2 id="graph-title">Graphique</h2>
-                <p>Évolution et répartition des activités économiques d'OVHcloud</p>
+                <div class="graph-heading">
+                    <h2 id="graph-title">Activités économiques</h2>
+                    <p>Répartition indicative des activités d'OVHcloud</p>
+                </div>
+                <div class="chart" role="img" aria-label="Graphique illustrant la répartition indicative des activités : cloud public 45 pour cent, cloud privé 30 pour cent, hébergement 15 pour cent, autres services 10 pour cent.">
+                    <div class="bar-row"><span>Cloud public</span><div class="bar-track"><span class="bar bar-public" style="--value: 45%"></span></div><strong>45 %</strong></div>
+                    <div class="bar-row"><span>Cloud privé</span><div class="bar-track"><span class="bar bar-private" style="--value: 30%"></span></div><strong>30 %</strong></div>
+                    <div class="bar-row"><span>Hébergement</span><div class="bar-track"><span class="bar bar-hosting" style="--value: 15%"></span></div><strong>15 %</strong></div>
+                    <div class="bar-row"><span>Autres services</span><div class="bar-track"><span class="bar bar-other" style="--value: 10%"></span></div><strong>10 %</strong></div>
+                </div>
+                <p class="chart-note">Illustration pédagogique, non représentative des résultats financiers officiels.</p>
             </div>
         </section>
 
@@ -54,15 +75,55 @@
         </section>
 
         <section class="map-section section-container" id="carte" aria-labelledby="map-title">
-            <div class="map-placeholder">
-                <h2 id="map-title">Map interactif</h2>
-                <p>Découvrez l'implantation des infrastructures OVHcloud</p>
+            <div class="map-card">
+                <div class="map-heading">
+                    <h2 id="map-title">Implantation mondiale</h2>
+                    <p>Explorez les principales régions dans lesquelles OVHcloud est implanté.</p>
+                </div>
+                <div id="economic-map" class="economic-map" aria-label="Carte interactive de l'implantation d'OVHcloud"></div>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer" id="langue">
-        <p>Bas de page (contact, mail ...)</p>
+    <footer class="custom-footer">
+        <div class="footer-container">
+            <div class="footer-right">
+                <p>&copy; 2026 OVHCLOUD. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">CGU</a>
+                </div>
+                <p>Page économie</p>
+            </div>
+            <div class="footer-left">
+                <span class="footer-logo">OVHCLOUD</span>
+                <p>Cloud Écologique &amp; Responsable</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script>
+        const map = L.map('economic-map', { scrollWheelZoom: false }).setView([30, 5], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        const sites = [
+            ['Roubaix, France', 50.6942, 3.1746, 'Siège historique et datacenters européens'],
+            ['Londres, Royaume-Uni', 51.5072, -0.1276, 'Région cloud Europe du Nord'],
+            ['Sydney, Australie', -33.8688, 151.2093, 'Région cloud Asie-Pacifique'],
+            ['Toronto, Canada', 43.6532, -79.3832, 'Région cloud Amérique du Nord'],
+            ['Singapour', 1.3521, 103.8198, 'Région cloud Asie-Pacifique'],
+            ['Mumbai, Inde', 19.076, 72.8777, 'Région cloud Asie']
+        ];
+
+        sites.forEach(([name, latitude, longitude, description]) => {
+            L.marker([latitude, longitude]).addTo(map)
+                .bindPopup(`<strong>${name}</strong><br>${description}`);
+        });
+    </script>
 </body>
 </html>
