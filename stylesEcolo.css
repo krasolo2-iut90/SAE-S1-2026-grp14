@@ -167,11 +167,11 @@ body {
 .main-container {
     max-width: 1000px;
     margin: 40px auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .hero-section {
-    background: linear-gradient(135deg, #0b0e14;, #2953A6);
+    background: linear-gradient(135deg, #0b0e14, #2953A6);
     display: flex;
     justify-content: center;
     align-items: center;
