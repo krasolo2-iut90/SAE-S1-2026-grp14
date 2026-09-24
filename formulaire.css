@@ -118,6 +118,16 @@ small {
     margin-top: 5px;
 }
 
+/* Aucun indicateur de niveau de sécurité du mot de passe ne doit être affiché. */
+.password-strength,
+.password-strength-meter,
+.password-strength-indicator,
+.strength-meter,
+.strength-indicator,
+[data-password-strength] {
+    display: none !important;
+}
+
 .form-options {
     align-items: center;
     display: flex;
