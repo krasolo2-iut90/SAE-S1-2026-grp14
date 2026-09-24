@@ -119,6 +119,7 @@ body {
     background: #283959;
     color: #ffffff;
     display: flex;
+    margin-bottom: 80px; 
     justify-content: center;
     min-height: 200px;
     padding: 48px 24px;
