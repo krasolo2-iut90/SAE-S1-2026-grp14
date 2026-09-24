@@ -80,17 +80,14 @@ body {
     outline: none;
 }
 
-.hero {
+.accueil {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
     margin: 0 auto;
     max-width: 1100px;
     padding: 96px 24px;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .eyebrow {
@@ -107,7 +104,7 @@ h1 {
     margin: 12px 0 16px;
 }
 
-.hero p:last-child {
+.accueil p:last-child {
     color: #64748b;
     font-size: 1.1rem;
 }
