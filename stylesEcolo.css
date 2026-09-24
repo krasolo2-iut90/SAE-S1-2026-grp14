@@ -197,22 +197,6 @@ body {
     margin-bottom: 30px;
 }
 
-.hero-button {
-    display: inline-block;
-    background-color: var(--primary-color);
-    color: white;
-    padding: 12px 30px;
-    border-radius: 30px; 
-    text-decoration: none;
-    font-weight: bold;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.hero-button:hover {
-    transform: translateY(-3px); 
-    box-shadow: 0 5px 15px rgba(92, 142, 242, 0.4); 
-}
-
 .articles-list {
     display: flex;
     flex-direction: column;
