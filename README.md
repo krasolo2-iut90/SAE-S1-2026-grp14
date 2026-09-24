@@ -61,13 +61,13 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 - Maouf Amine
   - Page d’accueil
-  - Intégrer une carte interactive
+  - Intation d'une carte interactive
 - Ozturk Ozan
   - Présentation économique
-  - Créer un bouton traduction anglais/français
+  - Création un bouton traduction anglais/français
 - Rasolo Kenza
   - Page infrastructure et écologie
-  - Créer thème clair/sombre
+  - Création thème clair/sombre
 - Miloud Djelloul
   - "Template" de page (Navbar/Footer)
   - Page sécurité et confiance
