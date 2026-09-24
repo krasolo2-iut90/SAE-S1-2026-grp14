@@ -284,6 +284,8 @@ body {
 }
 
 .doc-card {
+    width:35px;
+    height: auto;
     background: var(--white);
     border: 1px solid #ddd;
     padding: 20px;
