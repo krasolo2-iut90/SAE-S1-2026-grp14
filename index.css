@@ -95,6 +95,12 @@ body {
     max-width: 1100px;
     padding: 96px 24px;
 }
+.hero {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
 
 .eyebrow {
     color: var(--primary);
