@@ -7,7 +7,6 @@
     <title>OVHcloud - Économie</title>
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="economie.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
     <header class="site-header">
@@ -71,10 +70,12 @@
             </p>
         </section>
 
-        <section class="map-section section-container" id="carte">
-            <h2>Implantation mondiale</h2>
-            <p>Zoomez et cliquez sur les marqueurs pour découvrir plusieurs sites OVHcloud.</p>
-            <div id="economic-map" class="economic-map" aria-label="Carte interactive des sites OVHcloud"></div>
+        <section class="map-section section-container" id="carte" aria-labelledby="map-title">
+            <h2 id="map-title">Implantation mondiale</h2>
+            <p>Une carte interactive pourra être ajoutée ultérieurement par Djelloul.</p>
+            <div class="map-placeholder" role="img" aria-label="Emplacement réservé pour la carte interactive de Djelloul">
+                <span>map interractive pour Djelloul</span>
+            </div>
         </section>
     </main>
 
@@ -95,29 +96,5 @@
             </div>
         </div>
     </footer>
-
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script>
-        const map = L.map('economic-map').setView([25, 15], 2);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-
-        const sites = [
-            ['Roubaix, France', 50.69, 3.17, 'Siège historique et site européen'],
-            ['Londres, Royaume-Uni', 51.50, -0.12, 'Région cloud européenne'],
-            ['Toronto, Canada', 43.65, -79.38, 'Région cloud nord-américaine'],
-            ['Mumbai, Inde', 19.07, 72.87, 'Région cloud asiatique'],
-            ['Singapour', 1.35, 103.81, 'Région cloud Asie-Pacifique'],
-            ['Sydney, Australie', -33.86, 151.20, 'Région cloud Asie-Pacifique']
-        ];
-
-        sites.forEach(function (site) {
-            L.marker([site[1], site[2]])
-                .addTo(map)
-                .bindPopup('<strong>' + site[0] + '</strong><br>' + site[3]);
-        });
-    </script>
 </body>
 </html>
