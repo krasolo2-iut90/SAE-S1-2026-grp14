@@ -248,9 +248,14 @@ body {
     margin-bottom: 60px;
 }
 
+.bottom-link{
+    text-align:center;
+    margin-bottom:30px;
+}
+
 .bottom-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #444;
