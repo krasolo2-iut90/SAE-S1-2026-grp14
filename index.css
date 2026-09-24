@@ -168,20 +168,21 @@ body {
     text-align: center;
 }
 
-.introduction {
-    color: #283959;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
+.introduction,
 h1 {
-    font-size: 56px;
-    line-height: 110%;
-    margin: 12px 0 16px;
+    background: linear-gradient(
+        90deg,
+        #0B1659 0%,
+        #122173 35%,
+        #1C31A6 70%,
+        #18298C 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
 }
-
 .accueil p:last-child {
     color: #2d3340;
     font-size: 18px;
