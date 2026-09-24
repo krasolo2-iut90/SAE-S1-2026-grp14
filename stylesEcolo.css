@@ -186,7 +186,7 @@ body {
 
 .hero-content h1 {
     font-size: 2.5rem;
-    color: #0b0e14;
+    color: linear-gradient(135deg, #0b0e14, #2953A6);
     margin-bottom: 20px;
     line-height: 1.2;
 }
