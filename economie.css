@@ -157,12 +157,15 @@ h2 {
     display: flex;
     justify-content: center;
     min-height: 420px;
+    overflow: hidden;
 }
 
 .intro-image img {
-    max-height: 150px;
-    max-width: 70%;
-    object-fit: contain;
+    height: 100%;
+    max-height: none;
+    max-width: none;
+    object-fit: cover;
+    width: 100%;
 }
 
 .graph-section {
@@ -254,6 +257,14 @@ h2 {
 
 .map-section p {
     margin: 8px 0 25px;
+}
+
+.map-section iframe {
+    border: 0;
+    border-radius: 12px;
+    display: block;
+    height: 500px;
+    width: 100%;
 }
 
 .map-placeholder {
@@ -401,7 +412,8 @@ h2 {
         font-size: 17px;
     }
 
-    .map-placeholder {
+    .map-placeholder,
+    .map-section iframe {
         height: 380px;
     }
 
