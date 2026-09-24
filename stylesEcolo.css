@@ -116,9 +116,9 @@ body {
 .main-nav a:hover,
 .main-nav a:focus-visible,
 .main-nav a.active {
-    background: #283959;
+    background: #2953A6;
     color: #ffffff;
-    outline: 2px solid #283959;
+    outline: 2px solid #2953A6;
     outline-offset: 2px;
 }
 
