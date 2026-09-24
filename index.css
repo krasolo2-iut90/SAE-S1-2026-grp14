@@ -123,6 +123,24 @@ body {
     outline-offset: 2px;
 }
 
+.info-band {
+    align-items: center;
+    background: var(--primary-dark);
+    color: var(--surface);
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    padding: 48px 24px;
+    text-align: center;
+    transition: background-color 0.25s ease, color 0.25s ease;
+    width: 100%;
+}
+
+.info-band p {
+    font-size: 24px;
+    max-width: 1000px;
+}
+
 .header-actions {
     align-items: center;
     display: flex;
