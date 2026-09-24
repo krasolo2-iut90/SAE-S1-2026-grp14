@@ -1,0 +1,45 @@
+.site-header {
+    background: #f0f1f2;
+    border-bottom: 1px solid #283959;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-container {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto 1fr auto;
+    margin: 0 auto;
+    max-width: 1600px;
+    min-height: 104px;
+    padding: 14px 20px;
+    width: 100%;
+}
+
+.main-nav {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    min-width: 0;
+}
+
+.main-nav a {
+    background: #5c8ef2;
+    border-radius: 12px;
+    min-width: 105px;
+    padding: 9px 16px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.main-nav a:hover,
+.main-nav a:focus-visible,
+.main-nav a.active {
+    background: #283959;
+    color: #ffffff;
+    outline: 2px solid #283959;
+    outline-offset: 2px;
+}
