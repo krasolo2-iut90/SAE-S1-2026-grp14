@@ -170,30 +170,23 @@ body {
     padding: 0 20px;
 }
 
-/* --- HERO / INTRODUCTION --- */
 .hero-section {
-    /* Fond dégradé doux (Bleu ciel vers Blanc) - Change les couleurs si tu veux ! */
     background: linear-gradient(135deg, #eef4ff 0%, #ffffff 100%);
-    
-    /* On centre tout verticalement et horizontalement */
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* Hauteur : prend environ 60% de la hauteur de l'écran */
     min-height: 50vh; 
-    
     padding: 40px 20px;
     text-align: center;
 }
 
 .hero-content {
-    max-width: 800px; /* Limite la largeur du texte pour qu'il soit lisible */
+    max-width: 800px; 
 }
 
 .hero-content h1 {
-    font-size: 2.5rem; /* Gros titre */
-    color: #283959; /* Bleu foncé */
+    font-size: 2.5rem;
+    color: #283959;
     margin-bottom: 20px;
     line-height: 1.2;
 }
