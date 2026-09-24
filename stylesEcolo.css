@@ -170,6 +170,56 @@ body {
     padding: 0 20px;
 }
 
+/* --- HERO / INTRODUCTION --- */
+.hero-section {
+    /* Fond dégradé doux (Bleu ciel vers Blanc) - Change les couleurs si tu veux ! */
+    background: linear-gradient(135deg, #eef4ff 0%, #ffffff 100%);
+    
+    /* On centre tout verticalement et horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Hauteur : prend environ 60% de la hauteur de l'écran */
+    min-height: 50vh; 
+    
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px; /* Limite la largeur du texte pour qu'il soit lisible */
+}
+
+.hero-content h1 {
+    font-size: 2.5rem; /* Gros titre */
+    color: #283959; /* Bleu foncé */
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(92, 142, 242, 0.4); 
+}
+
 .articles-list {
     display: flex;
     flex-direction: column;
