@@ -3,7 +3,7 @@
 ## Sujet
 
 OVHcloud\
-[lien du site du projet](https://github.com/krasolo2-iut90/SAE-S1-2026-grp14)
+[lien du site du projet](https://krasolo2-iut90.github.io/SAE-S1-2026-grp14/)
 
 ## Membres du groupe
   * [Miloud Djelloul (référent)](mailto:miloud.djelloul@edu.univ-fcomte.fr?subject=SAE_1_05_06)
