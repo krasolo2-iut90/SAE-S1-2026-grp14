@@ -60,8 +60,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 ### Développement site
 
 - Maouf Amine
+  - "Template" de page (Navbar/Footer)
   - Page d’accueil
-  - Intation d'une carte interactive
 - Ozturk Ozan
   - Présentation économique
   - Création un bouton traduction anglais/français
@@ -69,7 +69,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
   - Page infrastructure et écologie
   - Création thème clair/sombre
 - Miloud Djelloul
-  - "Template" de page (Navbar/Footer)
+  - Intation d'une carte interactive
   - Page sécurité et confiance
   - Facultatif: agent ia
 
