@@ -190,8 +190,10 @@ body {
 }
 
 .bottom-section a {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     margin-top: 5px;
+    text-align:center;
+    display:flex;
 }
 
 .bottom-title {
