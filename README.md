@@ -41,7 +41,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur: Rasolo Kenza**
 
-Vérification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkrasolo2-iut90.github.io%2FSAE-S1-2026-grp14%2FpageEcolo.html))
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkrasolo2-iut90.github.io%2FSAE-S1-2026-grp14%2FpageEcolo.html)
 
 <br>
 <img width="1787" height="681" alt="image" src="https://github.com/user-attachments/assets/5fe7d034-71cf-48a9-ad0e-bb89b52a4573" />
