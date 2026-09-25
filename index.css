@@ -39,8 +39,12 @@ body {
 }
 
 .logo {
-    display: flex;
     align-items: center;
+    color: var(--dark-blue);
+    display: flex;
+    gap: 0;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 .logo-image {
@@ -55,6 +59,7 @@ body {
     display: flex;
     gap: 20px;
     justify-content: center;
+    min-width: 0;
 }
 
 .main-nav a,
@@ -83,8 +88,11 @@ body {
 }
 
 .header-actions {
+    align-items: center;
     display: flex;
     gap: 8px;
+    min-width: 0;
+    white-space: nowrap;
 }
 
 .header-button {
@@ -130,6 +138,66 @@ body {
     font-weight: 400;
     line-height: 62px;
     margin-top: 28px;
+}
+
+.chiffres-cles {
+    background: #f5f6f7;
+    padding: 60px 24px;
+}
+
+.chiffres-container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.chiffres-cles h2 {
+    color: var(--dark-blue);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.chiffres-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.chiffre-card {
+    align-items: center;
+    background: #ffffff;
+    border-left: 4px solid var(--blue);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 145px;
+    padding: 24px 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.chiffre-card:hover {
+    box-shadow: 0 4px 16px rgba(92, 142, 242, 0.15);
+    transform: translateY(-2px);
+}
+
+.chiffre-nombre {
+    color: var(--hover-blue);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.chiffre-label {
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .info-bande {
@@ -252,6 +320,10 @@ body {
         overflow-x: auto;
     }
 
+    .chiffres-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .info-bande-grid {
         grid-template-columns: 1fr;
         max-width: 500px;
@@ -289,6 +361,33 @@ body {
     .accueil h1 {
         font-size: 42px;
         line-height: 48px;
+    }
+
+    .chiffres-cles {
+        padding: 40px 16px;
+    }
+
+    .chiffres-cles h2 {
+        font-size: 28px;
+        margin-bottom: 28px;
+    }
+
+    .chiffres-grid {
+        gap: 14px;
+    }
+
+    .chiffre-card {
+        min-height: 125px;
+        padding: 18px 10px;
+    }
+
+    .chiffre-nombre {
+        font-size: 22px;
+    }
+
+    .chiffre-label {
+        font-size: 12px;
+        line-height: 17px;
     }
 
     .footer-container {
