@@ -27,8 +27,8 @@ Vérification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&s
 
 
 <br>
-<img alt="image" src="w3checkindex.png" width ="400">
-<img alt="image" src="w3checkindexcss.png" width = "400">
+<img alt="image" src="w3checkindex.png" width ="1700">
+<img alt="image" src="w3checkindexcss.png" width = "1700">
 
 ### Présentation économique
 
