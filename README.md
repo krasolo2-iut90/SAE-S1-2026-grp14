@@ -57,7 +57,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 
 <br>
-
+<img alt="image" src="w3securitehtml.png" width = "400">
+<img alt="image" src="w3securitecss.png" width = "400">
 
 
 ## Répartition du travail
