@@ -333,36 +333,3 @@ body {
     .header-container {
         padding: 12px 14px;
     }
-
-    .header-actions {
-        gap: 5px;
-    }
-
-    .header-button {
-        min-width: 0;
-        padding: 10px 8px;
-    }
-
-    .main-nav {
-        gap: 8px;
-    }
-
-    .main-nav a {
-        min-width: auto;
-        padding: 8px 10px;
-    }
-
-    .footer-container {
-        align-items: flex-start;
-        flex-direction: column-reverse;
-        gap: 25px;
-    }
-
-    .footer-right {
-        text-align: left;
-    }
-
-    .footer-links {
-        flex-wrap: wrap;
-    }
-}
