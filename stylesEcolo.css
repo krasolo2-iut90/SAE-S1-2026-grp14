@@ -7,7 +7,7 @@
 body {
     background: #ffffff;
     color: #0b0e14;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Garet, sans-serif;
     line-height: 24px;
 }
 
@@ -126,6 +126,7 @@ body {
 }
 
 .hero-content h1 {
+    font-family:Optima;
     color: #ffffff;
     font-size: 40px;
     margin-bottom: 20px;
@@ -172,6 +173,7 @@ body {
 }
 
 .text-block h2 {
+    font-family:Optima;
     color: #333333;
     font-size: 22px;
     margin: 0 0 10px;
@@ -197,6 +199,7 @@ body {
 }
 
 .bottom-title {
+    font-family:Optima;
     color: #444444;
     letter-spacing: 1px;
     margin-bottom: 15px;
