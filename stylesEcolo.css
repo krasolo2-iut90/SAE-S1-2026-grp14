@@ -175,7 +175,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh; 
+    min-height: 960px; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -192,7 +192,7 @@ body {
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    font-size: 19px;
     color: #fcfcfc;
     margin-bottom: 30px;
 }
@@ -233,7 +233,7 @@ body {
 .text-block h2 {
     margin: 0 0 10px 0;
     color: #333;
-    font-size: 1.4rem;
+    font-size: 22px;
 }
 
 .text-block p {
