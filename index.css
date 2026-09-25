@@ -117,14 +117,14 @@ body {
     text-align: center;
 }
 
-.introduction,
-h1 {
-    background: linear-gradient(135deg, #0b0e14, #2953a6);
-    border-radius: 12px;
-    color: #ffffff;
-    display: inline-block;
-    padding: 50px;
-    box-shadow: 0 8px 22px rgba(18, 33, 115, 0.22);
+.introduction {
+    background: linear-gradient(135deg, #2953A6, #0b0e14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 960px; 
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .introduction {
