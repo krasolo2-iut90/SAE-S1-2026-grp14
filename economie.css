@@ -46,9 +46,9 @@ body {
 
 .logo-image {
     display: block;
-    height: 46px;
+    height: 92px;
     object-fit: contain;
-    width: 46px;
+    width: 92px;
 }
 
 .main-nav {
