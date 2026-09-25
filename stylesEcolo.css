@@ -350,7 +350,7 @@ body {
 .footer-links a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 14px;
     border-bottom: 1px solid transparent;
     transition: 0.3s;
 }
@@ -365,7 +365,7 @@ body {
 
 .footer-logo {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 19px;
     display: block;
     color: #5c8ef2;
 }
