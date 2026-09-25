@@ -23,10 +23,10 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur: Amine**
 
-Verification W3C: [Détails ici]([entrer le lien](https://validator.w3.org/nu/?level=warning&doc=https%3A%2F%2Fkrasolo2-iut90.github.io%2FSAE-S1-2026-grp14%2Findex.html))
+Verification W3C: [Détails ici](https://validator.w3.org/nu/?level=warning&doc=https%3A%2F%2Fkrasolo2-iut90.github.io%2FSAE-S1-2026-grp14%2Findex.html))
 
 <br>
-![capture d'écran de la conformité de la page]()
+<img width="1787" height="681" alt="image" src=
 
 ### Présentation économique
 
