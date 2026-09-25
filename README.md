@@ -52,8 +52,10 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 **Auteur: Miloud Djelloul**
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
-<a width="1787" height="681" href="https://ibb.co/k2wdqnZJ"><img src="https://i.ibb.co/r2zW5P93/Capture-d-cran-2026-09-25-210816.png" alt="Capture-d-cran-2026-09-25-210816" border="0"></a>
 
+
+<br>
+<a width="1787" height="681" href="https://ibb.co/k2wdqnZJ"><img src="https://i.ibb.co/r2zW5P93/Capture-d-cran-2026-09-25-210816.png" alt="Capture-d-cran-2026-09-25-210816" border="0"></a>
 <br>
 
 
