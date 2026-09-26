@@ -37,7 +37,8 @@ Vérification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&s
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
 <br>
-![capture d'écran de la conformité de la page]()
+<img alt="image" src="w3economiehtml.png" width = "1700">
+<img alt="image" src="w3economiecss.png" width = "1700">
 
 ### Présentation des infrastructures et de l'aspect écologique
 
