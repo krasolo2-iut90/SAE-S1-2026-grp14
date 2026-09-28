@@ -21,7 +21,7 @@
 }
 
 body {
-    background: #7E6FAB;
+    background: #D5D2DE;
     color: #0b0e14;
     font-family: Garet, sans serif;
     line-height: 24px;
@@ -68,7 +68,7 @@ body {
     align-items: center;
     color: #283959;
     display: flex;
-    font-weight: 700;
+    font-weight: bold;
     gap: 0;
     justify-content: center;
     margin-bottom: 28px;
@@ -83,6 +83,7 @@ body {
 
 h1 {
     font-size: 30px;
+    font-weight: normal;
     line-height: 36px;
     margin-bottom: 8px;
     text-align: center;
@@ -100,7 +101,7 @@ h1 {
 
 label {
     display: block;
-    font-weight: 700;
+    font-weight: normal;
     margin-bottom: 7px;
 }
 
@@ -147,14 +148,14 @@ small {
 .form-options a,
 .form-footer a {
     color: #283959;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .checkbox-label {
     align-items: center;
     display: flex;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: normal;
     gap: 8px;
     margin-bottom: 0;
 }
@@ -176,7 +177,7 @@ small {
     color: #ffffff;
     cursor: pointer;
     font: inherit;
-    font-weight: 700;
+    font-weight: bold;
     padding: 13px;
     width: 100%;
 }
