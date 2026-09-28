@@ -113,8 +113,8 @@ body {
 }
 
 .stats {
-    background-color: #283959;
-    color: #ffffff;
+    background-color: #1E1145;
+    color: #D5D2DE;
     width: auto;
     padding: 20px 0;
     text-align: center;
@@ -128,7 +128,7 @@ body {
 }
 
 .conformite h2 {
-    color: #D5D2DE;
+    color: #463678;
     font-size: 28px;
     margin-bottom: 30px;
     text-align: left;
@@ -155,7 +155,7 @@ body {
 }
 
 .conformite-intro {
-    color: #283959;
+    color: #0F0333;
     margin: 0 auto 40px;
     max-width: 800px;
     text-align: center;
@@ -166,7 +166,7 @@ body {
 }
 
 .certif h3 {
-    color: #283959;
+    color: #463678;
     font-size: 20px;
     margin-bottom: 20px;
     text-align: left;
@@ -179,10 +179,10 @@ body {
 
 .certif-card,
 .card {
-    background: #f0f1f2;
-    border: 1px solid #d8dbe0;
+    background: #D5D2DE;
+    border: 1px solid #7F6FAB;
     border-radius: 10px;
-    color: #0b0e14;
+    color: #0F0333;
     display: flex;
     flex-direction: column;
     height: 300px;
@@ -191,16 +191,16 @@ body {
 
 .certif-card:hover,
 .card:hover {
-    border-color: #5c8ef2;
+    border-color: #0F0333;
 }
 
 .certif-card .image,
 .card .image {
     align-items: center;
     background: #ffffff;
-    border: 1px solid #d8dbe0;
+    border: 1px solid #7F6FAB;
     border-radius: 8px;
-    color: #283959;
+    color: #463678;
     display: flex;
     flex: 0 0 90px;
     font-weight: bold;
@@ -226,7 +226,7 @@ body {
 }
 
 .protection h2 {
-    color: #283959;
+    color: #463678;
     font-size: 28px;
     margin-bottom: 30px;
     text-align: left;
