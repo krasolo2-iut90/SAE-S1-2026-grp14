@@ -73,9 +73,9 @@ body {
 .main-nav a:hover,
 .main-nav a:focus-visible,
 .main-nav a.active {
-    background: #2953a6;
-    color: #D5D2DE;
-    outline: 2px solid #2953a6;
+    background: #463678;
+    color: #ffffff;
+    outline: 2px solid #283959;
     outline-offset: 2px;
 }
 
