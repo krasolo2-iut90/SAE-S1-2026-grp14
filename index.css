@@ -403,4 +403,13 @@ body {
     font-display: swap;
     }
 
+    
+    @font-face {
+    font-family: 'Garet';
+    src: url('./fonts/Garet-Heavy.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+        }
+
 }
