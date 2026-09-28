@@ -216,7 +216,7 @@ body {
 .marker-card {
     background: #ffffff;
     border-radius: 8px;
-    border-top: 4px solid #5c8ef2;
+    border-top: 4px solid #7E6FAB;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     padding: 20px;
     text-align: center;
@@ -253,7 +253,7 @@ body {
 }
 
 .doc-card:hover {
-    border-color: #5c8ef2;
+    border-color: #463678;
     box-shadow: 0 5px 15px rgba(92, 142, 242, 0.2);
 }
 
