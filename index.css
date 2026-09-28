@@ -394,4 +394,13 @@ body {
     .footer-links {
         flex-wrap: wrap;
     }
+
+    @font-face {
+    font-family: 'Garet';
+    src: url('./fonts/Garet-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+
 }
