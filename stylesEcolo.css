@@ -51,7 +51,7 @@ body {
     align-items: center;
     color: #283959;
     display: flex;
-    gap: 12px;
+    gap: 0;
     text-decoration: none;
     white-space: nowrap;
 }
