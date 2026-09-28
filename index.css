@@ -129,6 +129,7 @@ body {
 .accueil h1 {
     color: #ffffff;
     font-family: optima, sans-serif;
+    font-weight: bold;
     font-size: 56px;
     font-weight: 400;
     line-height: 62px;
@@ -137,6 +138,7 @@ body {
 
 .chiffres-cles {
     font-family: optima, sans-serif;
+    font-weight: bold;
     background: #D5D2DE;
     padding: 60px 24px;
 }
@@ -183,7 +185,8 @@ body {
 }
 
 .chiffre-nombre {
-    font-family: Garet, sans serif;
+    font-family: Optima;
+    font-weight:bold;
     color:  #463678;
     font-size: 30px;
     font-weight: bold;
@@ -193,12 +196,15 @@ body {
 }
 
 .chiffre-label {
+    font-family: Garet sans serif;
     color: #4b5563;
     font-size: 14px;
     line-height: 20px;
 }
 
 .info-bande {
+    font-family: Optima;
+    font-weight: bold;
     background: linear-gradient(135deg,#1E1145,#7E6FAB);
     padding: 50px 24px;
     text-align: center;
@@ -210,10 +216,12 @@ body {
 }
 
 .info-bande p {
+    font-family: Garet sans serif;
     font-size: 18px;
 }
 
 .info-bande .info-title {
+    font-family: Optima;
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 12px;
@@ -244,6 +252,7 @@ body {
 }
 
 .info-card h3 {
+    font-family: Garet sans serif;
     color:  #7E6FAB;
     font-size: 21px;
     margin-bottom: 10px;
