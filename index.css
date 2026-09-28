@@ -183,6 +183,7 @@ body {
 }
 
 .chiffre-nombre {
+    font-family: Garet, sans serif;
     color:  #463678;
     font-size: 30px;
     font-weight: bold;
