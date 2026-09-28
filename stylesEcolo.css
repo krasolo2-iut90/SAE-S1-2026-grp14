@@ -267,7 +267,7 @@ body {
 
 .custom-footer {
     background-color: #0F0333;
-    border-top: 4px solid #5c8ef2;
+    border-top: 4px solid #7E6333;
     color: #ffffff;
     margin-top: 60px;
     padding: 40px 20px;
@@ -302,7 +302,7 @@ body {
 }
 
 .footer-links a:hover {
-    border-bottom: 1px solid #FE6FAB;
+    border-bottom: 1px solid #7E6FAB;
 }
 
 .footer-right {
@@ -310,7 +310,7 @@ body {
 }
 
 .footer-logo {
-    color: #FE6FAB;
+    color: #7E6FAB;
     display: block;
     font-size: 19px;
     font-weight: bold;
