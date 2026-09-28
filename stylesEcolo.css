@@ -234,6 +234,8 @@ body {
 .marker-link {
     display: flex;
     gap: 15px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .marker-link a {
