@@ -99,7 +99,7 @@ body {
 .header-button:hover,
 .header-button:focus-visible {
     background: #2953a6;
-    color: #ffffff;
+    color: #D5D2DE;
     outline: 2px solid #2953a6;
     outline-offset: 2px;
 }
