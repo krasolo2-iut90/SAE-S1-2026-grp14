@@ -231,15 +231,17 @@ body {
     padding: 20px;
     text-align: center;
 }
-.marker-link{
+.marker-link {
+    display: flex;
+    gap: 15px;
+}
+
+.marker-link a {
     border-bottom: 1px solid transparent;
     color: #ffffff;
+    font-size: 14px;
     text-decoration: none;
     transition: 0.3s;
-    display: flex;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    text-align:center;
 }
 
 .marker-link a:hover {
