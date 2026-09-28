@@ -1,21 +1,29 @@
+@font-face {
+    font-family: 'Garet';
+    src: url('./fonts/Garet-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Garet';
+    src: url('./fonts/Garet-Heavy.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-:root {
-    --blue: #5c8ef2;
-    --dark-blue: #283959;
-    --text: #0b0e14;
-    --muted: #5d6575;
-    --background: #f5f7fb;
-}
-
 body {
-    background: var(--background);
-    color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
+    background: #7E6FAB;
+    color: #0b0e14;
+    font-family: Garet, sans serif;
     line-height: 24px;
 }
 
@@ -30,7 +38,7 @@ body {
 
 .back-link {
     align-self: flex-start;
-    color: var(--dark-blue);
+    color: #283959;
     margin: 0 auto 18px;
     max-width: 430px;
     text-decoration: none;
@@ -58,7 +66,7 @@ body {
 
 .form-logo {
     align-items: center;
-    color: var(--dark-blue);
+    color: #283959;
     display: flex;
     font-weight: 700;
     gap: 0;
@@ -81,7 +89,7 @@ h1 {
 }
 
 .form-intro {
-    color: var(--muted);
+    color: #4b5563;
     margin-bottom: 26px;
     text-align: center;
 }
@@ -107,12 +115,12 @@ input[type="password"] {
 }
 
 input:focus {
-    border-color: var(--blue);
-    outline: 3px solid rgba(92, 142, 242, 0.25);
+    border-color: #463678;
+    outline: 3px solid rgba(70, 54, 120, 0.25);
 }
 
 small {
-    color: var(--muted);
+    color: #4b5563;
     display: block;
     font-size: 12px;
     margin-top: 5px;
@@ -138,7 +146,7 @@ small {
 
 .form-options a,
 .form-footer a {
-    color: var(--dark-blue);
+    color: #283959;
     font-weight: 700;
 }
 
@@ -152,7 +160,7 @@ small {
 }
 
 .checkbox-label input {
-    accent-color: var(--blue);
+    accent-color: #463678;
     height: 16px;
     width: 16px;
 }
@@ -162,7 +170,7 @@ small {
 }
 
 .form-button {
-    background: var(--blue);
+    background: #463678;
     border: 0;
     border-radius: 7px;
     color: #ffffff;
@@ -175,11 +183,11 @@ small {
 
 .form-button:hover,
 .form-button:focus-visible {
-    background: var(--dark-blue);
+    background: #283959;
 }
 
 .form-footer {
-    color: var(--muted);
+    color: #4b5563;
     font-size: 14px;
     margin-top: 24px;
     text-align: center;
