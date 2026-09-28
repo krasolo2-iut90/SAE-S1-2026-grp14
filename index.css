@@ -147,6 +147,7 @@ body {
 }
 
 .chiffres-cles h2 {
+    font-family: Garet, sans serif;
     color: #283959;
     font-size: 32px;
     font-weight: 400;
