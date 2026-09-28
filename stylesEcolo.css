@@ -76,7 +76,7 @@ body {
 .main-nav a.active {
     background: #463678;
     color: #ffffff;
-    outline: 2px solid #2953a6;
+    outline: 2px solid #283959;
     outline-offset: 2px;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 .header-button {
-    background: #5c8ef2;
+    background: #7E6FAB;
     border-radius: 6px;
     color: #ffffff;
     min-width: 125px;
@@ -99,7 +99,7 @@ body {
 
 .header-button:hover,
 .header-button:focus-visible {
-    background: #283959;
+    background: #463678;
     color: #ffffff;
     outline: 2px solid #283959;
     outline-offset: 2px;
