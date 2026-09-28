@@ -136,6 +136,7 @@ body {
 }
 
 .chiffres-cles {
+    font-family: optima, sans-serif;
     background: #D5D2DE;
     padding: 60px 24px;
 }
