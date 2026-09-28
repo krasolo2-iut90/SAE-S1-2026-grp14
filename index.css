@@ -194,8 +194,7 @@ body {
 }
 
 .info-bande {
-    background: #283959;
-    color: #ffffff;
+    background: Linear-gradient(135deg,#1E1145,#7E6FAB;
     padding: 50px 24px;
     text-align: center;
 }
