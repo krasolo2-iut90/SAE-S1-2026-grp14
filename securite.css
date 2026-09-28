@@ -7,7 +7,7 @@
 body {
     background:#D5D2DE;
     color: #0b0e14;
-    font-family: 'Garet', sans serif;
+    font-family: 'Garet', sans-serif;
     line-height: 24px;
 }
 
@@ -129,6 +129,7 @@ body {
 
 .conformite h2 {
     color: #463678;
+    font-family: optima, sans-serif;
     font-size: 28px;
     margin-bottom: 30px;
     text-align: left;
@@ -167,6 +168,7 @@ body {
 
 .certif h3 {
     color: #463678;
+    font-family: optima, sans-serif;
     font-size: 20px;
     margin-bottom: 20px;
     text-align: left;
@@ -227,6 +229,7 @@ body {
 
 .protection h2 {
     color: #463678;
+    font-family: optima, sans-serif;
     font-size: 28px;
     margin-bottom: 30px;
     text-align: left;
