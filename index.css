@@ -161,7 +161,7 @@ body {
 .chiffre-card {
     align-items: center;
     background: #ffffff;
-    border-left: 4px solid #5c8ef2;
+    border-left: 4px solid  #7E6FAB;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -179,7 +179,7 @@ body {
 }
 
 .chiffre-nombre {
-    color: #2953a6;
+    color:  #463678;
     font-size: 30px;
     font-weight: bold;
     line-height: 1.2;
