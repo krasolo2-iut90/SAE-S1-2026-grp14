@@ -63,7 +63,7 @@ body {
 }
 
 .main-nav a {
-    background: #5c8ef2;
+    background: #7E6FAB;
     border-radius: 12px;
     min-width: 105px;
     padding: 9px 16px;
@@ -266,7 +266,7 @@ body {
 }
 
 .custom-footer {
-    background-color: #283959;
+    background-color: #0F0333;
     border-top: 4px solid #5c8ef2;
     color: #ffffff;
     margin-top: 60px;
@@ -302,7 +302,7 @@ body {
 }
 
 .footer-links a:hover {
-    border-bottom: 1px solid #5c8ef2;
+    border-bottom: 1px solid #FE6FAB;
 }
 
 .footer-right {
@@ -310,7 +310,7 @@ body {
 }
 
 .footer-logo {
-    color: #5c8ef2;
+    color: #FE6FAB;
     display: block;
     font-size: 19px;
     font-weight: bold;
