@@ -12,7 +12,7 @@ body {
 }
 
 .site-header {
-    background: linear-gradient(135deg, #1E1145, #7E6FAB);
+    background: #D5D2DE;
     border-bottom: 1px solid #283959;
     position: sticky;
     top: 0;
