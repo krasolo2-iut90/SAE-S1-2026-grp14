@@ -117,7 +117,7 @@ body {
 }
 
 .introduction {
-    background: #283959;
+    background: linear-gradient(135deg, #1E1145, #7E6FAB);
     border-radius: 12px;
     color: #D5D2DE;
     padding: 30px 20px;
