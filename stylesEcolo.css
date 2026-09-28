@@ -232,15 +232,16 @@ body {
     text-align: center;
 }
 .marker-link{
+    display: flex;
+}
+
+.marker-link a{
     border-bottom: 1px solid transparent;
-    color: #ffffff;
+    color: #0F0333;
+    font-size: 14px;
     text-decoration: none;
     transition: 0.3s;
-    display: flex;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    text-align:center;
-}
+    
 
 .marker-link a:hover {
     border-bottom: 1px solid #7E6FAB;
