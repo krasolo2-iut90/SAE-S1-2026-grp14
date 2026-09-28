@@ -56,7 +56,7 @@ body {
 
 .main-nav a,
 .header-button {
-    color: #0b0e14;
+    color: #463678;
     font-size: 16px;
     text-decoration: none;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .header-button {
-    background: #7E6FAB;
+    background: #463678;
     border-radius: 6px;
     color: #ffffff;
     min-width: 125px;
