@@ -181,6 +181,7 @@ body {
 .block-image {
     height: 200px;
     max-width: 100%;
+    display: flex;
 }
 
 .text-block {
