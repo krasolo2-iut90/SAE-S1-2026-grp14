@@ -179,7 +179,7 @@ body {
 }
 
 .block-image {
-    height: 200px;
+    height: auto;
     max-width: 100%;
     display: flex;
 }
