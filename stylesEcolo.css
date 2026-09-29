@@ -178,10 +178,9 @@ body {
     transform: translateY(-5px);
 }
 
-.image-placeholder {
-    background-color: #dddddd;
+.block-image {
     height: 200px;
-    width: 50%;
+    max-width: 100%;
 }
 
 .text-block {
