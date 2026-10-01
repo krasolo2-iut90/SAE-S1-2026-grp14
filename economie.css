@@ -148,7 +148,7 @@ body {
 h1,
 h2, h3 {
     color: #0F0333;
-    font-family: 'Garet', sans-serif;
+    font-family: 'Optima', serif;
 }
 
 .intro-text h1 {
@@ -215,7 +215,7 @@ h2, h3 {
     color: #0F0333;
     font-size: 20px;
     text-align: center;
-    font-family: 'Garet', sans-serif;
+    font-family: 'Optima', serif;
 }
 
 .chart-description {
