@@ -172,6 +172,7 @@ body {
     flex-direction: column;
     overflow: hidden;
     transition: transform 0.2s;
+	align-items: center;
 }
 
 .article-item:hover {
