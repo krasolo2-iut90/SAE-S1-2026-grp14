@@ -206,7 +206,6 @@ body {
 	font-size: 1.5em;
 	align-items: center;
 	display: flex;
-	margin: 5px;
 }
 
 .element>div:nth-child(1):hover{
