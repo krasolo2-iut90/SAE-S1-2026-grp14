@@ -209,6 +209,8 @@ body {
 
 .element>div:nth-child(1):hover{
 	transform: translateY(-5px)
+	transition: 0.3s;
+	background-color: #D5D2DE;
 }
 
 .element:nth-child(odd) {
