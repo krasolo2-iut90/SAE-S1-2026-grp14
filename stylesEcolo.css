@@ -213,12 +213,6 @@ body {
 	background-color: #D5D2DE;
 }
 
-.element>div:nth-child(1):hover 
-.element>div:nth-child(2)
-.element>div:nth-child(3){
-	opactiy: 1
-}
-
 .element:nth-child(odd) {
     display: flex;
     flex-direction: column;
