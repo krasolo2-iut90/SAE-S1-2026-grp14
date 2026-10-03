@@ -172,8 +172,6 @@ body {
     flex-direction: column;
     overflow: hidden;
     transition: transform 0.2s;
-	align-items: center;
-	justify-content: center;
 }
 
 .article-item:hover {
@@ -189,6 +187,8 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .element {
@@ -252,7 +252,6 @@ body {
     color: #333333;
     font-size: 22px;
     margin: 0 0 10px;
-	justify-content: left;
 }
 
 .text-block p {
