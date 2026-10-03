@@ -184,6 +184,55 @@ body {
     display: flex;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    margin: 1em 4em;
+}
+
+.element>div{
+    width: 100px;
+    height: 100px;
+}
+
+.element>div:nth-child(1) {
+    background-color: grey;
+}
+
+.element:nth-child(odd) {
+    display: flex;
+    flex-direction: column;
+}
+
+.element:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;;
+    justify-content: flex-end;
+}
+
+.element:nth-child(odd) div:nth-child(1) {
+    margin-top: 14.5em;
+}
+
+.element:nth-child(even) div:nth-child(3) {
+    align-self: flex-end;
+}
+
+.element div:nth-child(2) {
+    position: relative;
+    left: 50px;
+    margin: 1em 0;
+    border-left: 1px solid black;
+}
+
+.element div:nth-child(3) {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 .text-block {
     padding: 20px;
     text-align: left;
