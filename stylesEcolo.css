@@ -173,6 +173,7 @@ body {
     overflow: hidden;
     transition: transform 0.2s;
 	align-items: center;
+	justify-content: center;
 }
 
 .article-item:hover {
