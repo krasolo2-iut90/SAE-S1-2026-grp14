@@ -252,11 +252,13 @@ body {
     color: #333333;
     font-size: 22px;
     margin: 0 0 10px;
+	text-align: left;
 }
 
 .text-block p {
     color: #666666;
     margin: 0;
+	text-align: left;
 }
 
 .bottom-section {
