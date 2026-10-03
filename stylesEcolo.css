@@ -174,7 +174,6 @@ body {
     transition: transform 0.2s;
 	align-items: center;
 	justify-content: center;
-	text-align: left;
 }
 
 .article-item:hover {
@@ -253,6 +252,7 @@ body {
     color: #333333;
     font-size: 22px;
     margin: 0 0 10px;
+	justify-content: left;
 }
 
 .text-block p {
