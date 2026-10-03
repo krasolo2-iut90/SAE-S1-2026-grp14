@@ -204,6 +204,7 @@ body {
 .element>div:nth-child(1) {
     color: #7E6FAB;
 	font-size: 1.5em;
+	display: flex;
 }
 
 .element>div:nth-child(1):hover{
