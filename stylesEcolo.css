@@ -332,6 +332,7 @@ body {
 }
 
 .marker-title {
+  font-family: Optima;
   font-size: 0.95rem;
   font-weight: 700;
   color: #4a3f6b;
@@ -339,6 +340,7 @@ body {
 }
 
 .marker-text {
+  font-family: 'Garet';
   font-size: 0.8rem;
   color: #666;
   line-height: 1.4;
