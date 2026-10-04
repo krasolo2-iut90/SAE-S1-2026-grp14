@@ -198,9 +198,13 @@ body {
 }
 
 .container::before {
-  height: 3px;
-  background: linear-gradient(to right, transparent, #b8a9d4 10%, #b8a9d4 90%, transparent);
-  border-radius: 2px;
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #b8a9d4;
 }
 
 .element {
@@ -213,29 +217,6 @@ body {
   transition: opacity 0.3s ease;
 }
 
-.element:nth-child(odd) .date {
-  order: 3;
-  margin-top: 12px;
-  margin-bottom: 0;
-}
-.element:nth-child(odd) .ligne {
-  order: 2;
-}
-.element:nth-child(odd) .texte {
-  order: 1;
-}
-
-.element:nth-child(even) .date {
-  order: 1;
-  margin-bottom: 12px;
-}
-.element:nth-child(even) .ligne {
-  order: 2;
-}
-.element:nth-child(even) .texte {
-  order: 3;
-}
-
 .container:hover .element {
   opacity: 0.25;
 }
@@ -243,31 +224,31 @@ body {
   opacity: 1;
 }
 
-.ligne {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #7c6fa0;
-  margin-top: 8px;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.element:hover .ligne {
-  transform: scale(1.5);
-  background: #4a3f6b;
-}
-
 .date {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #4a3f6b;
-  letter-spacing: 0.5px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6b5b8a;
+  z-index: 1;
+}
+
+.ligne {
+  width: 2px;
+  height: 20px;
+  background: #b8a9d4;
+  margin-top: 4px;
 }
 
 .texte {
-  font-size: 0.85rem;
-  line-height: 1.5;
-  color: #555;
+  margin-top: 12px;
+  max-width: 160px;
+  font-size: 0.8rem;
+  color: #444;
+  text-align: center;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
 }
 
 .element:hover .texte {
@@ -276,7 +257,7 @@ body {
   pointer-events: auto;
 }   
 
-/* .text-block {
+.text-block {
     padding: 20px;
     text-align: left;
 }
@@ -291,30 +272,7 @@ body {
 .text-block p {
     color: #666666;
     margin: 0;
-} */
-
-.text-block {
-  background: #f8f6fc;
-  border-left: 4px solid #7c6fa0;
-  border-radius: 8px;
-  padding: 24px 32px;
-  margin-top: 40px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  text-align: left;
 }
-
-.contenu-texte h2 {
-  font-family: Optima;
-  font-size: 1.4rem;
-  color: #333333;
-  margin-bottom: 12px;
-}
-
-.contenu-texte p {
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: #666666;
-}   
 
 .bottom-section {
     background-color: #ffffff;
