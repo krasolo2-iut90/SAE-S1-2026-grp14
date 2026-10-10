@@ -142,7 +142,7 @@ body {
 }
 
 .hero-content h1 {
-    font-family:Optima;
+    font-family:Optima, sans-serif;
     font-weight: bold;
     color: #ffffff;
     font-size: 40px;
@@ -263,7 +263,7 @@ body {
 }
 
 .text-block h2 {
-    font-family:Optima;
+    font-family:Optima, sans-serif;
     color: #333333;
     font-size: 22px;
     margin: 0 0 10px;
@@ -282,7 +282,7 @@ body {
 }
 
 .bottom-title {
-    font-family:Optima;
+    font-family:Optima, sans-serif;
     color: #444444;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -332,7 +332,7 @@ body {
 }
 
 .marker-title {
-  font-family: Optima;
+  font-family: Optima, sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   color: #4a3f6b;
