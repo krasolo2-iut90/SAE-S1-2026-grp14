@@ -263,6 +263,11 @@ body {
   pointer-events: auto;
 }   
 
+.articles-list .article-item:nth-child(3) .image-placeholder img {
+    height: auto;
+    object-fit: contain;
+}
+
 .text-block {
     padding: 20px;
     text-align: left;
