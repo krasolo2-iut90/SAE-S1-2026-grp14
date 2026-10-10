@@ -185,12 +185,6 @@ body {
     object-fit: cover;
 }
 
-.frise-eco {
-  width: 100%;
-  overflow: hidden;
-  padding: 40px 20px;
-}
-
 .container {
   display: flex;
   justify-content: space-between;
