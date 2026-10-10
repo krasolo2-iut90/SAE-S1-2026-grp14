@@ -178,6 +178,18 @@ body {
     transform: translateY(-5px);
 }
 
+.frise-gradient {
+    background: linear-gradient(90deg, 
+        #ffffff 0%, 
+        #e8e4f2 25%, 
+        #7E6FAB 50%, 
+        #e8e4f2 75%, 
+        #ffffff 100%
+    );
+    padding: 60px 20px 40px;
+    margin-bottom: 30px;
+}
+
 .image-placeholder {
     width: 100%;
     overflow: hidden;
