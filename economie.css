@@ -532,18 +532,17 @@ h2, h3 {
     }
     .footer-socials {
     display: flex;
-    gap: 18px;
+    gap: 24px;
     align-items: center;
 }
 
 .footer-socials a {
     color: #ffffff;
-    font-size: 20px;
-    transition: color 0.3s, transform 0.2s;
+    font-size: 22px;
+    transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .footer-socials a:hover {
     color: #7E6FAB;
-    transform: translateY(-3px);
-}
+    transform: scale(1.15);
 }
