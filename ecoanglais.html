@@ -1,0 +1,153 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructures and Ecology</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="stylesEcolo.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a class="logo" href="index.html" aria-label="Home - SAE S1 Group 14">
+                <img class="logo-image" src="logo.png" alt="Group 14 logo">
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="indexenglish.html">Home</a>
+                <a href="economie.html">Economy</a>
+                <a href="securite.html">Security</a>
+                <a class="active" href="pageEcolo.html" aria-current="page">Ecology</a>
+            </nav>
+
+            <div class="header-actions">
+                <a class="header-button" href="connexion.html">Log in</a>
+                <a class="header-button" href="inscription.html">Register</a>
+                <a class="header-button" href="pageEcolo.html">FR</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Our infrastructure in harmony with the environment</h1>
+            <p>Discover how OVHCLOUD reduces its carbon footprint through green datacenters and smart energy management.</p>
+        </div>
+    </section>
+
+    <div class="main-container">
+        <section class="articles-list">
+            <div class="article-item">
+                {% include FriseEco.html %}
+                <div class="text-block">
+                    <h2>Managing our environmental impact</h2>
+                    <p>
+                        <!-- We design our servers to facilitate the refurbishing of their components. -->
+                    Today, digital technology plays a central and growing role in our professional and personal lives. The growth of the cloud is therefore constantly accelerating to support the digitization of all our activities. In line with our values and DNA, we position ourselves at the forefront of sustainable innovation. We aim to contribute to the global transformation of the sector with more sustainable practices and uses. The goal is to consciously minimize the impact associated with the operation of our datacenters and the use of our servers.</p>
+                </div>
+            </div>
+            <div class="article-item">
+                <div class="image-placeholder">
+                    <img src="images/Environment_SEO.jpg">
+                </div>
+                <div class="text-block">
+                    <h2>Our transparency</h2>
+                    <p>Using refurbished components in our servers allows us to extend their lifespan by an average of 4.5 years (and up to 9 years). Furthermore, 27 of our datacenters are renovated buildings.
+                        <br><br>
+                        By being transparent about our environmental targets and performance, we aim to empower our customers and partners to further expand the potential of a sustainable cloud. While positioning ourselves at the forefront of this global challenge for the cloud industry, we contribute to the most meaningful initiatives and unite the driving forces of our ecosystem.
+                        <br><br>
+                        As part of our commitments, we report on our overall environmental impact—not only regarding greenhouse gas emissions, but also energy, water, and waste management, transport, and we have also shared our carbon footprint since 2017.
+                        <br><br>
+                        Furthermore, we are ISO 50001 certified and participate in the European Code of Conduct for Energy Efficiency in Data Centres.</p>
+                </div>
+            </div>
+
+            <div class="article-item">
+                <div class="image-placeholder">
+                    <img src="images/supply_chain.jpg">
+                </div>
+                <div class="text-block">
+                    <h2>Sustainability &amp; supply chain</h2>
+                    <p>We dismantle 100% of our servers and rigorously test their components to give them a second life, either through reuse or external recycling and recovery.
+                    <br><br>
+                    For us, environmental responsibility does not end at the datacenter doors; it begins right at the design phase of our servers. We manufacture our own machines using rigorously selected components, and each part is factory-tested to guarantee its longevity.
+                    <br><br>
+                    Extending the lifespan of our infrastructure is a conviction: continuous maintenance, server redistribution across datacenters, and a network of resellers offer them a second life rather than premature retirement. As for end-of-life components, they are entrusted to certified partners to be transformed into new raw materials.
+                    <br><br>
+                    Design, test, repair, reuse, recycle: that is our promise for a leaner, more sustainable cloud.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom-section">
+            <h2 class="bottom-title">Our environmental indicators (2025)</h2>
+            <div class="marker-link"><a href="https://www.ovhcloud.com/sites/default/files/external_files/kpis_fy25.pdf">Our indicators per datacenter</a></div>
+
+            <div class="markers-grid">
+               <div class="marker-card">
+                    <img src="images/pue.jpg" alt="Marker 1" class="marker-img">
+                    <h3 class="marker-title">Power Usage Effectiveness (PUE)</h3>
+                    <p class="marker-text">Measures the datacenter's efficiency. The more efficient the site is, the closer the result gets to 1.</p>
+                </div>
+                <div class="marker-card">
+                    <img src="images/wue.jpg" alt="Marker 2" class="marker-img">
+                    <h3 class="marker-title">Water Usage Effectiveness (WUE)</h3>
+                    <p class="marker-text">Evaluates water consumption for datacenter operations.</p>
+                </div>
+                <div class="marker-card">
+                    <img src="images/cue.jpg" alt="Marker 3" class="marker-img">
+                    <h3 class="marker-title">Carbon Usage Effectiveness (CUE)</h3>
+                    <p class="marker-text">Quantifies carbon intensity within the datacenter.</p>
+                </div>
+                <div class="marker-card">
+                    <img src="images/renewable_energy.jpg" alt="Marker 4" class="marker-img">
+                    <h3 class="marker-title">Renewable Energy Factor (REF)</h3>
+                    <p class="marker-text">Determines the proportion of renewable energy used in the datacenter.</p>
+                </div>
+                <div class="marker-card">
+                    <img src="images/reused_components.jpg" alt="Marker 5" class="marker-img">
+                    <h3 class="marker-title">Reused components ratio</h3>
+                    <p class="marker-text">Indicates that for every 100 components used, 17 are refurbished parts.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="page-container">
+        <header class="category-header">
+            <h2 class="bottom-title">Our commitments</h2>
+        </header>
+
+        <main class="docs-grid">
+            <a href="https://corporate.ovhcloud.com/sites/default/files/2025-12/politique_rse_fr_fy26.pdf" class="doc-card"><span>CSR Policy 2026</span></a>
+            <a href="https://corporate.ovhcloud.com/sites/default/files/2025-11/urd_p51-163.pdf" class="doc-card"><span>Sustainability Statement (CSRD)</span></a>
+            <a href="https://corporate.ovhcloud.com/sites/default/files/2025-11/carbon_balance_2025_ovhcloud_fr_1.pdf" class="doc-card"><span>Carbon balance for fiscal year 2025</span></a>
+            <a href="https://corporate.ovhcloud.com/sites/default/files/2025-10/methodology_-_environmental_impact_tracker_fr.pdf" class="doc-card"><span>Environmental Impact Tracker Methodology</span></a>
+            <a href="https://corporate.ovhcloud.com/sites/default/files/2024-02/carbone_4_nzi4it_charte_engagement.pdf" class="doc-card"><span>NZI for IT Commitment Charter</span></a>
+            <a href="https://corporate.ovhcloud.com/sites/default/files/2025-01/2024-11_-_ovhcloud_-_ghg_emissions_limited_assurance.pdf" class="doc-card"><span>Limited assurance statement</span></a>
+        </main>
+    </div>
+
+    <footer class="custom-footer">
+        <div class="footer-container">
+            <div class="footer-right">
+                <p>&copy; 2026 OVHCLOUD. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Legal notices</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms of use</a>
+                </div>
+                <p>Kenza</p>
+            </div>
+
+            <div class="footer-left">
+                <span class="footer-logo">OVHCLOUD</span>
+                <p>Ecological &amp; Responsible Cloud</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
