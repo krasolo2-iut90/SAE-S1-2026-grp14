@@ -25,6 +25,14 @@ body {
     color: #0b0e14;
     font-family: 'Garet', sans-serif;
     line-height: 24px;
+    font-weight: normal; /* retire le gras par défaut */
+}
+
+/* Garder le gras uniquement pour les titres */
+h1, h2, h3, h4, h5, h6,
+.info-bande .info-title,
+.info-card h3 {
+    font-weight: bold;
 }
 
 .site-header {
@@ -147,16 +155,13 @@ body {
 .accueil h1 {
     color: #ffffff;
     font-family: Optima, sans-serif;
-    font-weight: bold;
     font-size: 56px;
-    font-weight: 400;
     line-height: 62px;
     margin-top: 28px;
 }
 
 .chiffres-cles {
     font-family: Optima, sans-serif;
-    font-weight: bold;
     background: #D5D2DE;
     padding: 60px 24px;
 }
@@ -203,11 +208,9 @@ body {
 }
 
 .chiffre-nombre {
-    font-family: Optima, sans-serif;
-    font-weight:bold;
+    font-family: Optima , sans-serif;
     color:  #463678;
     font-size: 30px;
-    font-weight: bold;
     line-height: 1.2;
     margin-bottom: 10px;
     white-space: nowrap;
@@ -222,7 +225,6 @@ body {
 
 .info-bande {
     font-family: Optima, sans-serif;
-    font-weight: bold;
     background: linear-gradient(135deg,#1E1145,#7E6FAB);
     padding: 50px 24px;
     text-align: center;
@@ -328,7 +330,6 @@ body {
     color: #7E6FAB;
     display: block;
     font-size: 20px;
-    font-weight: bold;
 }
 
     .footer-socials {
