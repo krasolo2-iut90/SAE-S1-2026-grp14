@@ -458,6 +458,23 @@ body {
     font-weight: bold;
 }
 
+.footer-socials {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .footer-socials a {
+        color: #ffffff;
+        font-size: 22px;
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+
+    .footer-socials a:hover {
+        color: #7E6FAB;
+        transform: scale(1.15);
+    }
+
 @media (max-width: 1050px) {
     .header-container {
         grid-template-columns: 1fr auto;
