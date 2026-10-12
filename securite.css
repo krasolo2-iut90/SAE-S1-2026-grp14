@@ -388,7 +388,11 @@ body {
     .footer-right {
         text-align: left;
     }
-
+    
+    .footer-links {
+        flex-wrap: wrap;
+    }
+    
     .footer-socials {
         display: flex;
         gap: 24px;
@@ -396,7 +400,7 @@ body {
     }
 
     .footer-socials a {
-        color: #ffffff;
+        color: #7E6FAB;
         font-size: 22px;
         transition: color 0.3s ease, transform 0.2s ease;
     }
@@ -406,7 +410,5 @@ body {
         transform: scale(1.15);
     }
 
-    .footer-links {
-        flex-wrap: wrap;
-    }
+    
 }
