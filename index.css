@@ -1,19 +1,18 @@
-    @font-face {
+@font-face {
     font-family: 'Garet';
     src: url('./fonts/Garet-Book.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    }
+}
 
-    
-    @font-face {
+@font-face {
     font-family: 'Garet';
     src: url('./fonts/Garet-Heavy.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-        }
+}
 
 * {
     box-sizing: border-box;
@@ -24,7 +23,7 @@
 body {
     background:#D5D2DE;
     color: #0b0e14;
-    font-family: 'Garet', sans serif;
+    font-family: 'Garet', sans-serif;
     line-height: 24px;
 }
 
@@ -75,7 +74,6 @@ body {
 .main-nav a,
 .header-button {
     color: #1E1145;
-;
     font-size: 16px;
     text-decoration: none;
 }
@@ -140,7 +138,7 @@ body {
     background:#1E1145;
     border-radius: 20px;
     color: #D5D2DE;
-    font-family: optima, sans-serif;
+    font-family: Optima, sans-serif;
     padding: 60px 30px;
     font-size:20px;
     width: 100%;
@@ -148,7 +146,7 @@ body {
 
 .accueil h1 {
     color: #ffffff;
-    font-family: optima, sans-serif;
+    font-family: Optima, sans-serif;
     font-weight: bold;
     font-size: 56px;
     font-weight: 400;
@@ -157,7 +155,7 @@ body {
 }
 
 .chiffres-cles {
-    font-family: optima, sans-serif;
+    font-family: Optima, sans-serif;
     font-weight: bold;
     background: #D5D2DE;
     padding: 60px 24px;
@@ -169,7 +167,7 @@ body {
 }
 
 .chiffres-cles h2 {
-    font-family: Garet, sans serif;
+    font-family: 'Garet', sans-serif;
     color: #283959;
     font-size: 32px;
     font-weight: 400;
@@ -205,7 +203,7 @@ body {
 }
 
 .chiffre-nombre {
-    font-family: Optima , sans-serif;
+    font-family: Optima, sans-serif;
     font-weight:bold;
     color:  #463678;
     font-size: 30px;
@@ -216,7 +214,7 @@ body {
 }
 
 .chiffre-label {
-    font-family: Garet sans serif;
+    font-family: 'Garet', sans-serif;
     color: #4b5563;
     font-size: 14px;
     line-height: 20px;
@@ -236,7 +234,7 @@ body {
 }
 
 .info-bande p {
-    font-family: Garet, sans-serif;
+    font-family: 'Garet', sans-serif;
     font-size: 18px;
 }
 
@@ -272,7 +270,7 @@ body {
 }
 
 .info-card h3 {
-    font-family: Garet, sans serif;
+    font-family: 'Garet', sans-serif;
     color:  #7E6FAB;
     font-size: 21px;
     margin-bottom: 10px;
