@@ -30,8 +30,7 @@ body {
 
 /* Garder le gras uniquement pour les titres */
 h1, h2, h3, h4, h5, h6,
-.info-bande .info-title,
-.info-card h3 {
+.info-bande .info-title {
     font-weight: bold;
 }
 
@@ -276,6 +275,7 @@ h1, h2, h3, h4, h5, h6,
     color:  #7E6FAB;
     font-size: 21px;
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 .info-card p {
@@ -288,6 +288,7 @@ h1, h2, h3, h4, h5, h6,
     color: #ffffff;
     margin-top: 60px;
     padding: 40px 20px;
+    font-family: Optima, sans-serif;
 }
 
 .footer-container {
