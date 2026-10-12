@@ -398,6 +398,7 @@ body {
 
     .footer-container {
         align-items: flex-start;
+        border-top: 4px solid #7E6FAB;
         flex-direction: column-reverse;
         gap: 25px;
     }
