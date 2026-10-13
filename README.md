@@ -54,6 +54,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 **Auteur: Miloud Djelloul**
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification éco : <img width="1110" height="674" alt="image" src="https://github.com/user-attachments/assets/ba534e6a-49a8-4e5b-b8a7-653f7e109a33" />
+
 
 
 <br>
