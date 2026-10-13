@@ -44,6 +44,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 **Auteur: Rasolo Kenza**
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkrasolo2-iut90.github.io%2FSAE-S1-2026-grp14%2FpageEcolo.html)
+Vérification Eco : <img width="1101" height="635" alt="image" src="https://github.com/user-attachments/assets/61256d74-ef3f-4c6d-9a01-7954d632fb5d" />
+
 
 <br>
 <img width="1787" height="681" alt="image" src="https://github.com/user-attachments/assets/5fe7d034-71cf-48a9-ad0e-bb89b52a4573" />
