@@ -73,13 +73,16 @@ Vérification éco : <img width="1110" height="674" alt="image" src="https://git
 - Maouf Amine
   - "Template" de page (Navbar/Footer)
   - Page d’accueil
+  - création d'un bouton changer de langue (EN/FR)
+  - Création bitbucket/gitlab
+  - Création de pages formulaires(non-fonctionnels) 
 - Ozturk Ozan
   - Présentation économique
-  - Création un bouton traduction anglais/français
 - Rasolo Kenza
   - Page infrastructure et écologie
-  - Création thème clair/sombre
+  - Création du Github
+  - Création d'une frise chronologique interactive
+  - Création du Github
 - Miloud Djelloul
   - Intation d'une carte interactive
   - Page sécurité et confiance
-  - Facultatif: agent ia
