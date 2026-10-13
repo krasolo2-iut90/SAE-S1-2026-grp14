@@ -34,6 +34,8 @@ Vérification eco :
 **Auteur: Ozturk Ozan**
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification Eco : <img width="1241" height="647" alt="image" src="https://github.com/user-attachments/assets/729a86fa-07e1-4fc8-92a7-fa56b3e68f3b" />
+
 
 <br>
 <img alt="image" src="w3economiehtml.png" width = "1700">
