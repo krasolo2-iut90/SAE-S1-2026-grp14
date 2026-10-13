@@ -78,7 +78,3 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
   - Intation d'une carte interactive
   - Page sécurité et confiance
   - Facultatif: agent ia
-
-## Contributeurs
-
-![capture d'écran sur la contribution des membres du projet]()
