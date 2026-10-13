@@ -25,8 +25,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 Vérification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?level=warning&doc=https%3A%2F%2Fkrasolo2-iut90.github.io%2FSAE-S1-2026-grp14%2Findex.html#file))
 Vérification eco :
-<img width="1181" height="658" alt="image" src="https://github.com/user-attachments/assets/2b677ce0-7a34-44bc-9bd6-6868d539283e" />
- width = "1700">
+<img width="1700" alt="image" src="https://github.com/user-attachments/assets/2b677ce0-7a34-44bc-9bd6-6868d539283e" />
 <img alt="image" src="w3checkindex.png" width ="1700">
 <img alt="image" src="w3checkindexcss.png" width = "1700">
 
