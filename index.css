@@ -25,10 +25,10 @@ body {
     color: #0b0e14;
     font-family: 'Garet', sans-serif;
     line-height: 24px;
-    font-weight: normal; /* retire le gras par défaut */
+    font-weight: normal; 
 }
 
-/* Garder le gras uniquement pour les titres */
+
 h1, h2, h3, h4, h5, h6,
 .info-bande .info-title {
     font-weight: bold;
